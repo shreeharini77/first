@@ -1,0 +1,42 @@
+.parent p
+        {
+         font-family:cursive;
+         letter-spacing: 1px;
+         text-transform: capitalize;
+         text-decoration: line-through;        
+        }
+         p:hover{
+             background-color:black;
+             color:white;
+         }
+        .border{
+            border: 2px solid brown;
+            padding: 5cm;
+            border-style: double ;
+        }
+        .margin {
+            border: 3px solid green;
+            margin-top: 30PX;
+            padding: 10px  50px 5px 30px;
+        }
+        .relative {
+            position: absolute ;
+            top: 40px;
+         left: 80px;
+            
+        }
+       .page
+       {
+        height: 100vh;
+       }
+       .fixed
+       {
+     position: fixed;
+     left: 70px;
+       }
+       .sticky
+       {
+        position: sticky;
+        top: 10px;
+        left: 120px;
+       }
