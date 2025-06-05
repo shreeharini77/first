@@ -40,3 +40,63 @@
         top: 10px;
         left: 120px;
        }
+       .inline
+       {
+        display: inline-block;
+       }
+       .display
+       {
+        display: block;
+       }
+       .flex-container
+       {
+        display: flex;
+        flex-direction: row;
+        background-color: chartreuse;
+        border: 2px solid black;
+        padding:15px;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+       }
+       
+       .flex-container div
+       {
+        background-color: blueviolet;
+        border: 2px solid black;
+       height: 100px;
+       width: 100px;
+       }
+       .two
+       {
+        flex-grow: 0;
+        
+       }
+       .nav
+       {
+        display: flex;
+        justify-content: space-evenly;
+       }
+     li
+       {
+        list-style: none;
+       }
+       .grid-container
+       {
+        display: grid;
+        grid-template: 50px 50px 50px 50px 50px / 50px 50px 50px 50px 50px;
+        row-gap: 20px;
+        column-gap: 30px;
+       }
+       .grid-container div
+       {
+        border: 2px solid rgb(21, 100, 211);
+        
+       }
+       .one
+       {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 4;
+       }
